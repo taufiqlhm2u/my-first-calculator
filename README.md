@@ -31,12 +31,9 @@ A simple web-based calculator built as a practice project using HTML, CSS, and J
 
 ## 📱 Preview
 
-| Desktop & Mobile View |
+| Mobile View |
 |------------------------|
 | ![Calculator Preview](preview.jpg) |
-
-> *Add a screenshot named `preview.png` in the project directory for preview on GitHub.*
-
 ---
 
 ## 🚀 How to Run
