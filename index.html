@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>my first calculator</title>
+ <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+<body>
+  <main>
+    <input type="text" id="display"  disabled/>
+    <section class="button-wrapper">
+      <button class="btn" onclick="insertValue('7')">7</button>
+      <button class="btn" onclick="insertValue('8')">8</button>
+      <button class="btn" onclick="insertValue('9')">9</button>
+      <button class="btn operation" onclick="insertValue('/')">/</button>
+      <button class="btn" onclick="insertValue('4')">4</button>
+      <button class="btn" onclick="insertValue('5')">5</button>
+      <button class="btn" onclick="insertValue('6')">6</button>
+      <button class="btn operation" onclick="insertValue('*')">X</button>
+      <button class="btn" onclick="insertValue('1')">1</button>
+      <button class="btn" onclick="insertValue('2')">2</button>
+      <button class="btn" onclick="insertValue('3')">3</button>
+      <button class="btn operation" onclick="insertValue('-')">-</button>
+      <button class="btn" onclick="insertValue('0')">0</button>
+      <button class="btn" onclick="insertValue('.')">.</button>
+      <button class="btn operation calculate" onclick="calculate()"> =</button>
+      <button class="btn operation" onclick="insertValue('+')">+</button>
+      <button class="btn clear" onclick="clearDisplay()">Reset</button>
+    </section>
+  </main>
+  <script src="script.js"> </script>
+</body>
+</html>
