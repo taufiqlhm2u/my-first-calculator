@@ -3,7 +3,9 @@
 A simple web-based calculator built as a practice project using HTML, CSS, and JavaScript. This app supports basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
 ---
+🔗 [View Live Calculator](https://taufiqlhm2u.github.io/my-first-calculator/)
 
+---
 ## 📂 Project Structure
  ├── index.html      # Main HTML structure 
  ├── style.css       # UI styling 
@@ -58,4 +60,3 @@ This is a beginner-friendly project, ideal for learning:
 For questions or collaborations, feel free to reach out!
 
 ---
-🔗 [View Live Calculator](https://taufiqlhm2u.github.io/my-first-calculator/)
